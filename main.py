@@ -1,5 +1,5 @@
 def f(x, y, z, w):
-    return int( (((not y) or w) == ((not x) or (not z))) and (x or w))
+    return int( (((not x) or y) == ( (not y) or (not z) )) and (y or w))
 
 print("x y z w     f")
 for x in range(0, 2):
